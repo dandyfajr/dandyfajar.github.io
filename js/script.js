@@ -12,7 +12,7 @@ if (url.searchParams.get('by') != null) {
 
 let footer = document.getElementById("credit");
 footer.innerHTML = sender;
-footer.href = "https://wa.me/085156264593/";
+footer.href = "https://api.whatsapp.com/send?phone=6283198529028&text=Ya%20aku%20Mau%20Terima";
 
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire("Hallo Putri", "Aku ada pertanyaan nih buat kamu?", "question").then(function () {
